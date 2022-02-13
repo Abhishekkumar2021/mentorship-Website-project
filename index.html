@@ -10,11 +10,21 @@
 </head>
 <body>
     <header class="Header space-between">
-  
-        <div class="logo">
-            <span>I</span>nitiators<span>N</span>avodayans
-        </div>
 
+        <div class="logo">
+          <table>
+            <tr>
+              <td> <img class="logo-img" src="assets/Initiator.png" alt="logo"></td>
+       <td>
+         <th>
+           <span>I</span>nitiators<span>N</span>avodayans
+        </th>
+       </td>
+            </tr>
+        </table>
+          </div>
+
+  <div class="">
     <nav id="navbar">
       <ul class="links">
         <li><a href="index.html">Home</a></li>
@@ -24,8 +34,10 @@
       </ul>
     </nav>
     <button className="toggle">Menu</button>
+
+  </div>
   </header>
-    
+
     <h1 class="Welcome"> &#x2192; </h1>
     <div class="content">
         <div class="select">
@@ -33,9 +45,11 @@
             <ul>
                 <li><a href=./pages/mentor_signup.html>Provide Mentorship</a></li>
                 <li><a href=./pages/student_signup.html >Get Mentorship</a></li>            
+                <li><a href="./pages/mentor_signin.html">Provide Mentorship</a></li>
+                <li><a href="./pages/student_pages/student_signin.html" >Get Mentorship</a></li>
             </ul>
         </div>
-    
+
         <div class="vision">
             <h2>Our Vision</h2>
             <p>
@@ -45,53 +59,15 @@
         </div>
     </div>
     <div class="dev">
-       <h2>
-           Team of devlopers
-       </h2>
-       <div class="people center">
-        <div class="card">
-           <div class="img">
-               <img src="./assets/Abhishek.jpg" alt="">
-           </div>
-           <a href="#" class="btn">Abhishek</a>
-        </div>
-        <div class="card">
-            <div class="img">
-                <img src="./assets/Aadi.jpg" alt="">
-            </div>
-            <a href="#" class="btn">Aditya</a>
-         </div>
-        <div class="card">
-            <div class="img">
-                <img src="./assets/Anurag.jpg" alt="">
-            </div>
-            <a href="#" class="btn">Anurag</a>
-         </div>
-         <div class="card">
-            <div class="img">
-                <img src="./assets/Arti.jpg" alt="">
-            </div>
-            <a href="#" class="btn">Arti</a>
-         </div>
-         <div class="card">
-            <div class="img">
-                <img src="./assets/Gauri.jpg" alt="">
-            </div>
-            <a href="#" class="btn">Gauri</a>
-         </div>
-         <div class="card">
-            <div class="img">
-                <img src="./assets/Mukesh.jpg" alt="">
-            </div>
-            <a href="#" class="btn">Mukesh</a>
-         </div>
-         
-       </div>
+       <a href="./pages/dev.html"><button>Team of developers</button></a>
     </div>
    <footer>
        Copyright &copy; 2022
        <a href="./pages/joinus.html">Join us</a>
    </footer>
+
+
+
 </body>
 <script src="./scripts/app.js"></script>
 <script src="./scripts/navbar.js"></script>
